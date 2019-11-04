@@ -1,0 +1,371 @@
+.box {
+    width: 1440px;
+    height: 1666px;
+    background-color: rgb(245, 248, 249);
+}
+.nav {
+    width: 1440px;
+    height: 100px;
+    background-color: rgb(255,255,255);
+}
+.logo {
+    float: left;
+    width: 105px;
+    height: 30px;
+    background-color: red;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.square {
+    float: right;
+    width: 110px;
+    height: 40px;
+    background-color: red;
+    margin-right: 150px;
+    margin-top: 30px; 
+}
+.LOGO {
+    width: 39px;
+    height: 9px;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 32px;
+    color: rgb(255,255,255);
+}
+.setting {
+    float: left;
+    margin-left: 831px;
+    margin-top: 42px;
+}
+.bell {
+    float: left;
+    margin-left: 19px;
+    margin-top: 42px;
+}
+.Log{
+    width: 39px;
+    height: 9px;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 32px;
+    color: rgb(255,255,255);
+}
+.content {
+    width: 1140px;
+    height: 1276px;
+    margin: 0 auto;
+}
+.content-top {
+    float: left;
+    width: 273px;
+    height: 51px;
+    margin-top: 70px;
+}
+.content-top>div {
+    margin-bottom: 14px;
+}
+.content-nav {
+    float: left;
+    width: 469px;
+    height: 20px;
+    margin-left: 398px;
+    margin-top: 100px;
+    position: relative;
+}
+.content-nav a {
+    text-decoration: none;
+}
+.content-nav>ul {
+    position: absolute;
+    list-style: none;
+}
+.content-nav li {
+    float: left;
+    width: 82px;
+    font-size: 13px;
+    text-align: center;
+    height: 19px;
+}
+.nav-underline {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 83px;
+    height: 42px;
+    background: url(../images/underline_03.gif) no-repeat;
+}
+.banner {
+    position: relative;
+    float: left;
+    width: 560px;
+    height: 288px;
+    margin-left: -273px;
+    margin-top: 49px; 
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    overflow: hidden;
+}
+.banner ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+}
+.banner ul li {
+    float: left;
+    width: 539px;
+    height: 267px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+.line-base {
+    float: left;
+    width: 1140px;
+    height: 349px;
+    margin-top: 19px; 
+    background-color: rgb(255, 255, 255);
+}
+.line {
+    width: 1065px;
+    height: 250px;
+    margin-left: 36px;
+    margin-top: 34px;
+}
+.line-taxt {
+    width: 137px;
+    height: 20px;
+    margin-left: 501px;
+    margin-top: 33px;
+}
+.pie-base {
+    float: left;
+    width: 560px;
+    height: 377px;
+    margin-top: 20px; 
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+}
+.bar-base {
+    float: left;
+    width: 560px;
+    height: 377px;
+    margin-top: 20px; 
+    background-color: rgb(255, 255, 255);
+}
+.pie-taxt {
+    width: 139px;
+    height: 20px;
+    margin-left: 209px;
+    margin-top: 47px;
+}
+.pie {
+    width: 323px;
+    height: 271px;
+    margin-left: 124px;
+    margin-top: 19px;  
+}
+.bar-taxt {
+    width: 139px;
+    height: 20px;
+    margin-left: 212px;
+    margin-top: 47px; 
+}
+.bar {
+    width: 497px;
+    height: 255px;
+    margin-left: 32px;
+    margin-top: 35px;
+    
+}
+.footer {
+    height: 290px;
+    
+}
+.footer-top {
+    height: 253px;
+    background-color: rgb(32, 34, 37);
+}
+.footer-logo {
+    float: left;
+    width: 105px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 80px;
+    background-color: red;
+}
+.footer-links {
+    float: left;
+    width: 776px;
+    height: 95px;
+    margin-left: 77px;
+    margin-top: 79px;
+    background-color: rgb(32, 34, 37);
+}
+.footer-links-a {
+    float: left;
+    width: 72px;
+    height: 94px;
+    margin-right: 120px;
+}
+.footer-links-b {
+    float: left;
+    width: 61px;
+    height: 95px;
+    margin-right: 118px;
+}
+.footer-links-c {
+    float: left;
+    width: 65px;
+    height: 95px;
+    margin-right: 119px;
+}
+.footer-links-d {
+    float: left;
+    width: 52px;
+    height: 94px;
+    margin-right: 119px;
+}
+.footer-links-e {
+    float: left;
+    width: 50px;
+    height: 38px;  
+}
+.footer-links a {
+    font-family: Raleway-Bold;
+    font-size: 13px;
+    text-align: left;
+    line-height: 25px;
+    color: rgb(255,255,255);
+}
+.footer-bottom {
+    height: 37px;
+    background-color: rgb(27, 29, 32);
+}
+.prev,
+.next {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+    width: 25px;
+    height: 37px;
+    background: rgba(0,0,0, .8);
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    z-index: 2;
+}
+.prev {
+    left: 16px;
+}
+.next {
+    right: 16px; 
+}
+.banner>a {
+    text-decoration: none;
+    font-size: 28px;
+}
+.promo-nav {
+    position: absolute;
+    bottom: 9px;
+    left: 50%;
+    margin-left: -31px;
+    width: 69px;
+    height: 11px;
+    background: rgb(255,255,255, 0.1);
+    z-index: 2;
+}
+.promo-nav li {
+    margin-bottom: 0;
+    float: left;
+    width: 7px;
+    height: 8px;
+    margin-top: 3px;
+    background-color: rgb(155, 154, 154);
+    margin-right: 7px;
+}
+.promo-nav .end-li {
+    margin-right: 0;
+}
+.promo-nav .selected {
+    width: 6px;
+    height: 11px;
+    margin-top: 0;
+    background-color: #fff;
+}
+.support {
+    float: left;
+    width: 560px;
+    height: 288px;
+    margin-top: 49px; 
+    background-color: rgb(255, 255, 255);
+}
+.support-top {
+    float: left;
+    width: 560px;
+    height: 109px;
+    margin-top: 40px;
+}
+.Requests {
+    width: 148px;
+    height: 19px;
+    margin-left: 50px;
+    margin-top: 9px;
+    margin-top: 40px;
+}
+.support-top>button {
+    width: 95px;
+    height: 40px;
+    margin-left: 150px;
+}
+.support-top>hr {
+    width: 560px;
+    height: 1px;
+    margin-top: 29px;
+    margin-bottom: 27px;
+}
+.TIME {
+    width: 34px;
+    height: 10px;
+    margin-left: 49px;
+    
+}
+.USER {
+    width: 80px;
+    height: 12px;
+    margin-left: 70px;
+    
+}
+.STATUS {
+    width: 52px;
+    height: 12px;
+    margin-left: 90px;
+    
+}
+.support-mian1 {
+    float: left;
+    width: 460px;
+    height: 30px;
+    margin-top: 58px;
+    margin-left: 50px;
+}
+.support-mian2 {
+    float: left;
+    width: 460px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.support-mian1 span,
+.support-mian2 span{
+    margin-right: 49px;
+    
+}
+.Solved {
+    width: 65px;
+    height: 30px;
+    background-color: rgb(93, 208, 84);
+    color:#fff;
+}

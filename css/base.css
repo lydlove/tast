@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a:hover {
+    text-decoration: underline;     
+}
+li {
+    list-style: none;
+ }
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+.clearfix {
+*zoom: 1
+}

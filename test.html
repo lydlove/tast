@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Text</title>    
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/echarts-en.common.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/sellerService.js"></script>
+    <script src="js/sellerController.js"></script>
+</head>
+<body ng-app="pinyougou" ng-controller="sellerController" ng-init="getChart()">
+    <div class="box" >
+    <div class="nav">
+        <div class="logo">
+            <span class="LOGO">L O G O</span> 
+        </div>
+        <img class="setting" src="images/setting_03.png"/>
+        <img class="bell" src="images/bell_03.png"/>
+        <div class="square">
+            <span class="Log">Log Out</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-top">
+            <div>Audience Overview</div>
+            <span>Roseville, CA</span>
+        </div>
+         <div class="content-nav">
+             <span class="nav-underline"></span>
+            <ul>
+                <li><a>DASHBOARD</a></li>
+                <li><a>PROJECTS</a></li>
+                <li><a>CALENDAR</a></li>
+                <li><a>MAILBOX</a></li>
+                <li><a>SETTINGS</a></li>
+            </ul>
+         </div>
+        <div class="banner">
+            <a href="javaScript:;" class="prev"> &lt; </a>
+            <a href="javaScript:;" class="next"> &gt; </a>
+            <ol class="promo-nav">  
+            </ol>
+            <ul>
+                <li>
+                <a href="javaScript:;"><img src="images/banner_03.png" ></a>
+                </li>
+                
+                <li>
+                    <a href="javaScript:;"><img src="images/shu_03.png"></a>
+                </li>
+                 
+                <li>
+                    <a href="javaScript:;"><img src="images/shu_03.png"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="support">
+            <div class="support-top">
+                <span class="Requests">Support Requests</span>
+                <button>View All</button>
+                <hr>
+                <span class="TIME">TIME</span>
+                <span class="USER">USER NAME</span>
+                <span class="STATUS">STATUS</span>
+            </div>
+                <div class="support-mian1">
+                    <span>9:45pm</span>
+                    <span>info@design.com</span>
+                    <span class="Solved">Solved</span>
+                </div>
+                <div class="support-mian2">
+                    <span>9:45pm</span>
+                    <span>info@design.com</span>
+                    <span class="Solved">Solved</span>
+                </div>
+            </div>
+        
+        <div class="line-base">
+            <div class="line-taxt">曲线图数据展示</div>
+            <div class="line"></div>
+        </div>
+        <div class="pie-base">
+            <div class="pie-taxt">饼状图数据展示</div>
+            <div class="pie" ></div>
+        </div>
+        <div class="bar-base">
+            <div class="bar-taxt">柱状图数据展示</div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <span class="LOGO">L O G O</span> 
+            </div>
+            <div class="footer-links">
+                <div class="footer-links-a">
+                    <a>NEWS</a>
+                    <a>CHANNELS</a>
+                    <a>OVERVIEW</a>
+                    <a>TIMELINE</a>  
+                </div>
+                <div class="footer-links-b">
+                    <a>SPORT</a>
+                    <a>CULTURE</a>
+                    <a>NATURE</a>
+                    <a>MUSIC</a>
+                </div>
+                <div class="footer-links-c">
+                        <a>WEATHER</a>
+                        <a>AUTOS</a>
+                        <a>LOCAL</a>
+                        <a>SHOP</a>
+                </div>
+                <div class="footer-links-d">
+                        <a>FUTURE</a>
+                        <a>FOOD</a>
+                        <a>EARTH</a>
+                        <a>TV</a>
+                </div>
+                <div class="footer-links-e">
+                        <a>TRAVEL</a>
+                        <a>RADIO</a>
+                </div>
+            </div>  
+        </div>
+        <div class="footer-bottom"></div>
+    </div>
+    </div>
+</body>
+</html>
